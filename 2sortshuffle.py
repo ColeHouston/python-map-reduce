@@ -5,7 +5,7 @@ dataList = unsorted.readlines()
 dataList.sort()
 
 for line in dataList:
-    print (line)
+    print (line, end=' ')
     sorted.write(line)
 
 unsorted.close()
